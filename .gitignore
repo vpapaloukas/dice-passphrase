@@ -1,0 +1,41 @@
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.phpstorm.meta.php
+
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml.local
+/coverage/
+/.phpunit.cache/
+
+# PHP
+*.php~
+.php_cs.cache
+.php-cs-fixer.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Build artifacts
+/build/
+/dist/
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
